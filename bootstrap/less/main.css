@@ -6128,6 +6128,10 @@ h3 {
   margin: 0 -14px;
   line-height: 95px;
 }
+a:hover {
+  color: #4ccae1;
+  text-decoration: none;
+}
 /* Global Layout ----------------------------- */
 /* ------------------------------------------ */
 header {
