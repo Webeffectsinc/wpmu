@@ -590,12 +590,12 @@ address {
 }
 @media (min-width: 992px) {
   .container {
-    width: 1080px;
+    width: 1081px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1080px;
+    width: 1081px;
   }
 }
 .row {
@@ -3053,17 +3053,17 @@ ol {
 }
 @media (min-width: 992px) {
   .container {
-    width: 1080px;
+    width: 1081px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1080px;
+    width: 1081px;
   }
 }
 @media (min-width: 1330px) {
   .container {
-    width: 1080px;
+    width: 1081px;
   }
 }
 @media (min-width: 1330px) {
@@ -3430,7 +3430,7 @@ aside article:last-child {
   padding-top: 51px;
 }
 .container {
-  padding: 0;
+  padding: 0 1px 0 0;
 }
 .right-side h1 {
   padding-left: 43px;
@@ -3457,8 +3457,8 @@ aside article:last-child {
   font-size: 14px;
 }
 .grid-overlay {
-  background-image: linear-gradient(rgba(23, 137, 69, 0.4) 1px, transparent 1px), linear-gradient(rgba(18, 129, 170, 0.4) 1px, transparent 1px), linear-gradient(90deg, #2c3c46 30px, transparent 30px);
-  background-size: 1px 10px, 1px 10px, 45px 45px;
-  background-position: 4px 4px, 9px 9px, -15px -15px;
+  background-image: linear-gradient(rgba(23, 137, 69, 0.4) 1px, transparent 1px), linear-gradient(rgba(18, 129, 170, 0.4) 1px, transparent 1px), linear-gradient(90deg, #35f8ff 1px, transparent 1px), linear-gradient(90deg, #2c3c46 30px, transparent 30px);
+  background-size: 1px 10px, 1px 10px, 45px 1px, 45px 45px;
+  background-position: 4px 4px, 9px 9px, 0 0, -15px -15px;
 }
 /* ------------------------------------------ */
