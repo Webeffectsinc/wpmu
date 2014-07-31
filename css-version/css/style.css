@@ -64,7 +64,8 @@ img {
 .container {
 	margin-right: auto;
 	margin-left: auto;
-	width: 1080px;
+	width: 1081px;
+	padding-right: 1px;
 }
 .container:before,
 .container:after {
