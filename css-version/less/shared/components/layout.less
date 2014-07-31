@@ -1,0 +1,91 @@
+/* Global Layout ----------------------------- */
+// This file contains the layout style.
+/* ------------------------------------------ */
+
+header {
+	padding-top: 76px;
+	padding-bottom: 20px;
+}
+
+aside {
+	article {
+		padding-top: 61px;
+		h1 {
+			font-size: 28px;
+			font-weight: 700;
+			padding-right: 45px;
+			position: relative;
+			padding-bottom: 11px;
+			i {
+				position: absolute;
+				right: 0;
+				font-size: 19px;
+				top: 3px;
+			}
+		}
+		p {
+			font-size: 15px;
+			line-height: 20px;
+			margin: 0 1px 0 0;
+			padding: 18px 0 11px 55px;
+		}
+		a {
+			color: #FFF;
+			i {
+				font-size: 25px;
+			}
+		}
+		&:first-child {
+			padding-top: 63px;
+		}
+		&:last-child {
+			padding-top: 51px;
+		}
+	}
+}
+.container {
+	padding: 0 1px 0 0;
+}
+.right-side {
+	h1 {
+		padding-left: 43px;
+		padding-right: 0;
+		i {
+			left: 0;
+			right: auto;
+			top: 3px;
+		}
+	}
+	p {
+		padding: 19px 55px 10px 0;
+		margin-left: -1px;
+	}
+	article {
+		&:last-child {
+			h1 {
+				i {
+					top: 4px;
+					left: 1px;
+				}
+			}
+		}
+	}
+}
+
+.wrench {
+	height: 1100px;
+	background: url(../img/wrench.png) no-repeat center 99px;
+}
+
+
+.btn {
+	font-size: 14px;
+}
+.grid-overlay {
+		 background-image: linear-gradient(rgba(23,137,69, .4) 1px, transparent 1px),
+		 linear-gradient(rgba(18,129,170, .4) 1px, transparent 1px),
+		 linear-gradient(90deg, #35f8ff 1px, transparent 1px),
+		 linear-gradient(90deg, #2c3c46 30px, transparent 30px);
+		 background-size: 1px 10px, 1px 10px, 45px 1px, 45px 45px;
+		 background-position: 4px 4px, 9px 9px, 0 0, -15px -15px;
+}

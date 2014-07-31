@@ -1,0 +1,447 @@
+/* Global Reset ----------------------------- */
+/* This file contains the baseline setting for html elements.
+Be mindful of how cascading order affects or is affected by a global reset. */
+/* ------------------------------------------ */
+
+html {
+	font-size: 62.5%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+	height: 100%;
+}
+body {
+	position: relative;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	color: #FFF;
+	background: #333;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+a {
+	color: #f0443c;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	color: #f0443c;
+	text-decoration: underline;
+}
+a:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+img {
+	vertical-align: middle;
+}
+
+/* Grid ------------------------ */
+/* Add the grid system */
+/* ------------------------------------------ */
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1080px;
+}
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+.container:after {
+	clear: both;
+}
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+.container:after {
+	clear: both;
+}
+
+[class*="col-"] {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+
+/*Let's add the columns*/
+.col-1 {
+	width: 45px;
+}
+.col-2 {
+	width: 90px;
+}
+.col-3 {
+	width: 135px;
+}
+.col-4 {
+	width: 180px;
+}
+.col-5 {
+	width: 225px;
+}
+.col-6 {
+	width: 270px;
+}
+.col-7 {
+	width: 315px;
+}
+.col-8 {
+	width: 360px;
+}
+.col-9 {
+	width: 405px;
+}
+.col-10 {
+	width: 450px;
+}
+.col-11 {
+	width: 495px;
+}
+.col-12 {
+	width: 540px;
+}
+.col-13 {
+	width: 585px;
+}
+.col-14 {
+	width: 630px;
+}
+.col-15 {
+	width: 675px;
+}
+.col-16 {
+	width: 720px;
+}
+.col-17 {
+	width: 765px;
+}
+.col-18 {
+	width: 810px;
+}
+.col-19 {
+	width: 855px;
+}
+.col-20 {
+	width: 900px;
+}
+.col-21 {
+	width: 945px;
+}
+.col-22 {
+	width: 990px;
+}
+.col-23 {
+	width: 1035px;
+}
+.col-24 {
+	width: 1080px;
+}
+
+/*Here is the columns spacing*/
+
+.col-left-0 {
+	margin-left: 0;
+}
+.col-left-1 {
+	margin-left: 45px;
+}
+.col-left-2 {
+	margin-left: 90px;
+}
+.col-left-3 {
+	margin-left: 135px;
+}
+.col-left-4 {
+	margin-left: 180px;
+}
+.col-left-5 {
+	margin-left: 225px;
+}
+.col-left-6 {
+	margin-left: 270px;
+}
+.col-left-7 {
+	margin-left: 315px;
+}
+.col-left-8 {
+	margin-left: 360px;
+}
+.col-left-9 {
+	margin-left: 405px;
+}
+.col-left-10 {
+	margin-left: 450px;
+}
+.col-left-11 {
+	margin-left: 495px;
+}
+.col-left-12 {
+	margin-left: 540px;
+}
+.col-left-13 {
+	margin-left: 585px;
+}
+.col-left-14 {
+	margin-left: 630px;
+}
+.col-left-15 {
+	margin-left: 675px;
+}
+.col-left-16 {
+	margin-left: 720px;
+}
+.col-left-17 {
+	margin-left: 765px;
+}
+.col-left-18 {
+	margin-left: 810px;
+}
+.col-left-19 {
+	margin-left: 855px;
+}
+.col-left-20 {
+	margin-left: 900px;
+}
+.col-left-21 {
+	margin-left: 945px;
+}
+.col-left-22 {
+	margin-left: 990px;
+}
+.col-left-23 {
+	margin-left: 1035px;
+}
+.col-left-24 {
+	margin-left: 1080px;
+}
+
+/* Custom Typography ------------------------ */
+/* ------------------------------------------ */
+
+h1, h2, h3 {
+	margin: 0;
+}
+/* Global Typography ----------------------------- */
+/* ------------------------------------------ */
+h3 {
+	font-size: 28px;
+	font-weight: 400;
+}
+.main-header {
+	font-size: 110px;
+	font-weight: 900;
+	letter-spacing: -3px;
+	padding-top: 29px;
+	margin: 0 -14px;
+	line-height: 95px;
+}
+a:hover {
+	color: #4ccae1;
+	text-decoration: none;
+}
+/* Custom Icons -------------------------- */
+/* ------------------------------------------ */
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?i9eodp');
+	src: url('../fonts/icomoon.eot?#iefixi9eodp') format('embedded-opentype'), url('../fonts/icomoon.woff?i9eodp') format('woff'), url('../fonts/icomoon.ttf?i9eodp') format('truetype'), url('../fonts/icomoon.svg?i9eodp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-plus:before {
+	content: "\e607";
+}
+.icon-roof:before {
+	content: "\e605";
+}
+.icon-electric:before {
+	content: "\e604";
+}
+.icon-window:before {
+	content: "\e603";
+}
+.icon-plumb:before {
+	content: "\e602";
+}
+.icon-fence:before {
+	content: "\e601";
+}
+.icon-bricks:before {
+	content: "\e600";
+}
+
+/* Global Layout ----------------------------- */
+/* ------------------------------------------ */
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+header {
+	padding-top: 76px;
+	padding-bottom: 20px;
+}
+aside article {
+	padding-top: 61px;
+}
+aside article h1 {
+	font-size: 28px;
+	font-weight: 700;
+	padding-right: 45px;
+	position: relative;
+	padding-bottom: 11px;
+}
+aside article h1 i {
+	position: absolute;
+	right: 0;
+	font-size: 19px;
+	top: 3px;
+}
+aside article p {
+	font-size: 15px;
+	line-height: 20px;
+	margin: 0 1px 0 0;
+	padding: 18px 0 11px 55px;
+}
+aside article a {
+	color: #FFF;
+}
+aside article a i {
+	font-size: 25px;
+}
+aside article:first-child {
+	padding-top: 63px;
+}
+aside article:last-child {
+	padding-top: 51px;
+}
+.container {
+	padding: 0 1px 0 0;
+}
+.right-side h1 {
+	padding-left: 43px;
+	padding-right: 0;
+}
+.right-side h1 i {
+	left: 0;
+	right: auto;
+	top: 3px;
+}
+.right-side p {
+	padding: 19px 55px 10px 0;
+	margin-left: -1px;
+}
+.right-side article:last-child h1 i {
+	top: 4px;
+	left: 1px;
+}
+.wrench {
+	height: 1100px;
+	background: url(../img/wrench.png) no-repeat center 99px;
+}
+.btn {
+	font-size: 14px;
+}
+.grid-overlay {
+	background-image: linear-gradient(rgba(23, 137, 69, 0.4) 1px, transparent 1px), linear-gradient(rgba(18, 129, 170, 0.4) 1px, transparent 1px), linear-gradient(90deg, #35f8ff 1px, transparent 1px), linear-gradient(90deg, #2c3c46 30px, transparent 30px);
+	background-size: 1px 10px, 1px 10px, 45px 1px, 45px 45px;
+	background-position: 4px 4px, 9px 9px, 0 0, -15px -15px;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 1em;
+	line-height: 1;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.btn-success {
+  color: #ffffff;
+  background-color: #a8c461;
+  border-color: #9ebd4e;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+	color: #ffffff;
+	background-color: #97b845;
+	border-color: #7c9638;
+}
+.btn-lg {
+	padding: 10px 16px;
+	font-size: 14px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+	background-image: none;
+}
+/* ------------------------------------------ */
