@@ -59,7 +59,7 @@ owl: http://www.w3.org/2002/07/owl#" class="no-js no-touch">
 						<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 						<![endif]-->
 
-						<div class="container">
+						<div class="container grid-overlay">
 							<header class="col-md-20 col-md-offset-2 text-center">
 								<h3>Service</h3>
 								<h1 class="main-header"><span class="col-md-16 col-md-offset-4">Premiere</span> Service &amp; Quality</h1>
@@ -115,14 +115,10 @@ owl: http://www.w3.org/2002/07/owl#" class="no-js no-touch">
 			<script src="js/jquery-2.1.0.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
 			<script src="js/less.js"></script>
-
-			<div class="perpixel" style="width: 1364px; position: absolute; top: 0; left: 50%; margin-left: -682px;  -moz-opacity: 0.50; opacity:.50; filter: alpha(opacity=0);">
-				<img src="fixer_part.png">
-			</div>
 			<button class="show_perf btn btn-success btn-lg" id="perf" style="position: fixed; bottom: 0; right: 0;">Toggle Pixels</button>
 			<script>
 				$('#perf').on('click', function() {
-					$('.perpixel').toggle();
+					$('.container').toggleClass('grid-overlay');
 				});
 			</script>
 		</div>
